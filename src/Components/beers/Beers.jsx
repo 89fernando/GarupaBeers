@@ -1,4 +1,4 @@
-import { Fragment, useContext, useEffect } from "react";
+import { useContext, useEffect } from "react";
 import { BeersContext } from "../../Context/BeersContext";
 import BeerCard from "./BeerCard";
 import Footer from "../footer/Footer";
@@ -12,7 +12,7 @@ const Beers = () => {
 
   useEffect(() => {
       getBeers()
-  }, [])
+  }, [getBeers, beers])
 
 
   return(
@@ -23,7 +23,6 @@ const Beers = () => {
       </Typography>
       <BeerCard beer={beers}/>
       <Footer />
-     
     </div>
   )  
 }

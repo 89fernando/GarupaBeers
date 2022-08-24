@@ -1,44 +1,45 @@
 .header {
-    background-color: #209b86;
-    border-bottom: solid 2px black;
-    height: 3rem;
-    font-family: 'Quicksand', sans-serif;
-    .header-container {
+  background-color: #209b86;
+  border-bottom: solid 2px black;
+  height: 3rem;
+  font-family: 'Quicksand', sans-serif;
+  .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 82px;
+
+    .logo-container {
       display: flex;
       align-items: center;
-      justify-content: space-between;
-      padding-left: 100px;
-      padding-right: 82px;
-  
-      .logo-container {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        img {
-          height: 46px;
-        //   padding: 1rem 0rem;
-        }
-        h1 {
-          color: black;
-          padding-left: 1rem;
-          margin: 0;
-        }
-      }
-  
-      ul {
-        display: flex;
-        list-style: none;
-        color: black;
-        font-size: 1.2rem;
-      }
-      li{
-        cursor: pointer;
-      }
-      li:first-child {
-        padding-right: 1rem;
+      justify-content: center;
+      img {
+        height: 46px;
       }
     }
+
+    ul {
+      display: flex;
+      list-style: none;
+      color: black;
+      font-size: 1.2rem;
+    }
+    li{
+      cursor: pointer;
+    }
+    li:first-child {
+      padding-right: 1rem;
+    }
   }
+  .super-title {
+    a {
+      color: black;
+      padding-left: 1rem;
+      margin: 0;
+    }
+  }
+}
 .exit-icon {
     cursor: pointer;
 }
@@ -58,10 +59,15 @@
   
   @media (max-width: 495px) {
     .header {
+
+   
       .header-container {
+        padding: 0px;
+        display: flex;
+        justify-content: space-evenly;
         .logo-container {
           img {
-            height: 3rem;
+            height: 4rem;
           }
           h1 {
             display: none;

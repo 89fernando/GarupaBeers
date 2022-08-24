@@ -18,8 +18,8 @@ const Header = () => {
                     src={Logo}
                     alt="logo-beer" />
             </div>
-            <div>
-            <h1>BREWDOG</h1>
+            <div className='super-title'>
+              <a href="https://www.brewdog.com/uk">BREWDOG</a>
             </div>
             <ul>
               <ExitToAppIcon 

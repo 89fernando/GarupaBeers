@@ -20,7 +20,6 @@ function Copyright() {
 
 const Footer = () => {
 
-
   return (
     <Box  sx={{ bgcolor: 'background.paper', py: 6 }} className='footer'>
       <Container maxWidth="lg">
@@ -32,6 +31,5 @@ const Footer = () => {
     </Box>
   );
 }
-
 
 export default Footer;

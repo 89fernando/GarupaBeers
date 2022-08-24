@@ -2,7 +2,8 @@ import { Routes, Route } from 'react-router-dom';
 import LoginRoute from './LoginRoute';
 import Login from "../Components/login/Login";
 import ProtectedRoutes from './ProtectedRoutes';
-import Beers from '../Components/beers/Beers'
+import Beers from '../Components/beers/Beers';
+
 const AppRoutes = () => {
 
   return (

@@ -1,6 +1,6 @@
-import { Navigate, Outlet } from 'react-router-dom'
-import { AuthContext } from '../Context/AuthContext'
-import { useContext } from 'react'
+import { Navigate, Outlet } from 'react-router-dom';
+import { AuthContext } from '../Context/AuthContext';
+import { useContext } from 'react';
 
 const LoginRoute = () => {
   const { authenticated } = useContext(AuthContext)
@@ -18,4 +18,4 @@ const LoginRoute = () => {
   )
 }
 
-export default LoginRoute
+export default LoginRoute;

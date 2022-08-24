@@ -6,30 +6,30 @@ function AuthProvider({ children }) {
   const [authenticated, setAuthenticated] = useState(null)
   
   useEffect(() => {
-      const isLogged = JSON.parse(localStorage.getItem('authenticated'))
-      if (isLogged) {
-          setAuthenticated(true)
-      } else {
-          setAuthenticated(false)
-      }
+    const isLogged = JSON.parse(localStorage.getItem('authenticated'))
+    if (isLogged) {
+      setAuthenticated(true)
+    } else {
+      setAuthenticated(false)
+    }
   }, [])
 
   function doLogin() {
-      localStorage.setItem('authenticated', true)
-      setAuthenticated(true)
+    localStorage.setItem('authenticated', true)
+     setAuthenticated(true)
   }
 
   function doLogout() {
-      localStorage.setItem('authenticated', false)
-      setAuthenticated(false)
+    localStorage.setItem('authenticated', false)
+    setAuthenticated(false)
   }
 
 
   return (
     <AuthContext.Provider
-        value={{ authenticated, setAuthenticated, doLogin, doLogout }}
+      value={{ authenticated, setAuthenticated, doLogin, doLogout }}
     >
-        {children}
+      {children}
     </AuthContext.Provider>
   )
 }

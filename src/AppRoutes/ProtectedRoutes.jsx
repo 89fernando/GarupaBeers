@@ -1,7 +1,7 @@
-import { Navigate, Outlet } from 'react-router-dom'
-import { BeersProvider } from '../Context/BeersContext'
-import { AuthContext } from '../Context/AuthContext'
-import { useContext } from 'react'
+import { Navigate, Outlet } from 'react-router-dom';
+import { BeersProvider } from '../Context/BeersContext';
+import { AuthContext } from '../Context/AuthContext';
+import { useContext } from 'react';
 
 const ProtectedRoutes = () => {
   const { authenticated } = useContext(AuthContext)

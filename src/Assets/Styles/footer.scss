@@ -1,7 +1,14 @@
 .footer {
   background: #209b86 !important;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
   padding: 20px!important;
+}
+
+@media (max-width: 950px) {
+  .footer {
+    position: unset;
+    padding: 10px!important
+  }
 }

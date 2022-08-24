@@ -1,3 +1,7 @@
+.card-container {
+  background-color: red;
+}
+
 .card-title {
   text-transform: uppercase;
   text-align: center;
@@ -8,9 +12,22 @@
   display: flex;
   margin-top: 50px;
   padding: 5px;
+  background: transparent!important;
+  border-radius: 2rem;
+  border-color: black;
+  box-shadow:inset 0 0 0.5em black!important;
+  transition: all 400 ease;
+
+}
+
+.beer-card:hover {
+  background: #209b86 !important;
+  transition: all 400 ease;
 }
 
 .beer-image {
+  display: flex;
+  justify-content: center;
   margin: 10px;
   height: 267px;
   width: 200px;
@@ -32,12 +49,21 @@
     -webkit-line-clamp: 6; // Quantidade de linhas
     -webkit-box-orient: vertical; 
     font-weight: 300;
+    padding: 0 15px 0 0;
   }
 }
 
 .beer-features {
   margin-top: 2rem;
   display: flex;
+  h5 {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+  }
+  .beer-icon {
+    margin-right: 5px;
+  }
 }
 
 

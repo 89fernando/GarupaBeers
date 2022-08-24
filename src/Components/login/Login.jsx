@@ -6,7 +6,6 @@ import BeerHome from "../../Assets/Images/beer-home1.jpg";
 
 //imports material ui
 
-import Container from '@mui/material/Container';
 import CssBaseline from '@mui/material/CssBaseline';
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
@@ -24,7 +23,6 @@ const Login = () => {
   const [userName, setUserName] = useState('')
   const [password, setPassword] = useState('')
   const { doLogin } = useContext(AuthContext)
-
   const navigate = useNavigate()
 
   function validateUser() {
@@ -35,8 +33,6 @@ const Login = () => {
     }
     navigate('/allbeers')
   }
-
-  console.log(userName,password);
 
   return (
     <Grid container component="main" sx={{ height: '100vh' }}>
