@@ -1,0 +1,54 @@
+.card-title {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 15px;
+}
+.beer-card {
+  width: 100%;
+  display: flex;
+  margin-top: 50px;
+  padding: 5px;
+}
+
+.beer-image {
+  margin: 10px;
+  height: 267px;
+  width: 200px;
+  overflow: hidden;
+
+  img{
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
+
+.beer-card-body {
+  width: 60%;
+
+  h4 {
+    overflow: hidden; // Removendo barra de rolagem
+    text-overflow: ellipsis; // Adicionando "..." ao final
+    display: -webkit-box;
+    -webkit-line-clamp: 6; // Quantidade de linhas
+    -webkit-box-orient: vertical; 
+    font-weight: 300;
+  }
+}
+
+.beer-features {
+  margin-top: 2rem;
+  display: flex;
+}
+
+
+//********* PAGINAÇÃO ********* //@at-root
+.pagination-div{
+  margin-top: 2.5rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+
+  .css-kvsszq-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected{
+    background-color: #209b86;
+  }
+}
