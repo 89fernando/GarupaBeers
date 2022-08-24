@@ -9,8 +9,14 @@ function Copyright() {
   return (
     <Typography variant="body2" color="text.secondary" align="center">
       {'Copyright © '}
-      <Link color="inherit" href="https://www.linkedin.com/in/89fernando/">
+      <Link color="inherit" target="_blank" href="https://www.linkedin.com/in/89fernando/">
         Linkedin
+      </Link>{' '}
+      <Link color="inherit" target="_blank" href="https://89fernando.github.io/My-Portfolio-React/">
+        Portfólio
+      </Link>{' '}
+      <Link color="inherit" target="_blank" href="https://github.com/89fernando">
+        Github
       </Link>{' '}
       {new Date().getFullYear()}
       {'.'}
