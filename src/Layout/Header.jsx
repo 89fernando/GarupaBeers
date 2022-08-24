@@ -15,11 +15,11 @@ const Header = () => {
         <div className='header-container'>
             <div className="logo-container">
                 <img
-                    src={Logo}
-                    alt="logo-beer" />
+                  src={Logo}
+                  alt="logo-beer" />
             </div>
             <div className='super-title'>
-              <a target="_blank" href="https://www.brewdog.com/uk">BREWDOG</a>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.brewdog.com/uk">BREWDOG</a>
             </div>
             <ul>
               <ExitToAppIcon 
