@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/89fernando/garupachallenge/static/css/main.47bccbdc.css",
-    "main.js": "/89fernando/garupachallenge/static/js/main.b5228f11.js",
-    "static/media/beer-home.png": "/89fernando/garupachallenge/static/media/beer-home.91f2d22a366c997dc788.png",
-    "static/media/beer-home1.jpg": "/89fernando/garupachallenge/static/media/beer-home1.8916bf2d8c9e9f9ea4d6.jpg",
-    "index.html": "/89fernando/garupachallenge/index.html",
-    "main.47bccbdc.css.map": "/89fernando/garupachallenge/static/css/main.47bccbdc.css.map",
-    "main.b5228f11.js.map": "/89fernando/garupachallenge/static/js/main.b5228f11.js.map"
+    "main.css": "/89fernando/GarupaBeers/static/css/main.47bccbdc.css",
+    "main.js": "/89fernando/GarupaBeers/static/js/main.2892e36a.js",
+    "static/media/beer-home.png": "/89fernando/GarupaBeers/static/media/beer-home.91f2d22a366c997dc788.png",
+    "static/media/beer-home1.jpg": "/89fernando/GarupaBeers/static/media/beer-home1.8916bf2d8c9e9f9ea4d6.jpg",
+    "index.html": "/89fernando/GarupaBeers/index.html",
+    "main.47bccbdc.css.map": "/89fernando/GarupaBeers/static/css/main.47bccbdc.css.map",
+    "main.2892e36a.js.map": "/89fernando/GarupaBeers/static/js/main.2892e36a.js.map"
   },
   "entrypoints": [
     "static/css/main.47bccbdc.css",
-    "static/js/main.b5228f11.js"
+    "static/js/main.2892e36a.js"
   ]
 }
